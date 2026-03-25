@@ -2,8 +2,8 @@
 import grades
 
 # Student Identity Configuration
-LAST_NAME = "Madrigal"         # Replace with your surname
-STUDENT_ID = "TUPM-24-1234"    # Replace with your ID
+LAST_NAME = "Villafuerte"         # Replace with your surname
+STUDENT_ID = "TUPM-24-11919"    # Replace with your ID
 
 SEED_DIGIT = int(STUDENT_ID[-1])
 ID_SUM = sum(int(d) for d in STUDENT_ID if d.isdigit())
